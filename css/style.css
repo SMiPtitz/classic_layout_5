@@ -1,0 +1,23 @@
+header {
+  padding: 30px 0;
+  border-bottom: 9px solid transparent;
+  background:
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(to bottom, #888, #fff) border-box;
+}
+
+
+.name {
+  font-size: 37px;
+  line-height: 32px;
+  color: #333;
+  font-weight: 500;
+}
+
+.subname {
+  font-size: 14px;
+}
+
+.nav__item:first-child {
+  color: #1d9d73;
+}

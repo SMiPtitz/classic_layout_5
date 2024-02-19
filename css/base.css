@@ -9,6 +9,7 @@ body {
 
 .container {
   max-width: 1170px;
+  margin: 0 auto;
 }
 
 .row {
@@ -20,6 +21,7 @@ body {
 
 .col {
   margin: 0 15px;
+  align-self: center;
 }
 
 .block-wrap {
@@ -43,4 +45,13 @@ body {
 .text {
   font-size: 18px;
   line-height: 30px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
