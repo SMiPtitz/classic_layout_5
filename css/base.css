@@ -6,6 +6,10 @@ body {
   font-weight: 300;
   color: #888888;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 .container {
   max-width: 1170px;
@@ -17,11 +21,13 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 -15px;
+  font-size: 0;
 }
 
 .col {
+  box-sizing: border-box;
   margin: 0 15px;
-  align-self: center;
+  font-size: 18px;
 }
 
 .block-wrap {
@@ -45,6 +51,7 @@ body {
 .text {
   font-size: 18px;
   line-height: 30px;
+  margin-bottom: 0;
 }
 ul {
   list-style: none;
@@ -54,4 +61,7 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+h4 {
+  margin: 15px 0;
 }
